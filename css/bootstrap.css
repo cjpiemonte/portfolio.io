@@ -85,16 +85,16 @@ video {
 
 @media screen and (max-width: 600px) {
   .circle {
-    width: calc(50% - 20px); /* Adjust width for smaller screens */
-    height: calc(50% - 20px); /* Allow height to adjust according to content */
+    width: 20px; /* Adjust width for smaller screens */
+    height:20px; /* Allow height to adjust according to content */
     margin-bottom: 10px; /* Adjust margin for smaller screens */
   }
 }
 
 @media screen and (max-width: 600px) {
   .square {
-    width: calc(50% - 20px); /* Adjust width for smaller screens */
-    height: calc(50% - 20px); /* Allow height to adjust according to content */
+    width: 20px; /* Adjust width for smaller screens */
+    height: 20px; /* Allow height to adjust according to content */
     margin-bottom: 10px; /* Adjust margin for smaller screens */
   }
 }

@@ -102,14 +102,14 @@ video {
 @media screen and (max-width: 768px) {
   .circle {
     width: calc(50% - 20px); /* Adjust width for smaller screens */
-    height: calc(50% - 20px); /* Allow height to adjust according to content */
+    height: auto; /* Allow height to adjust according to content */
     margin-bottom: 10px; /* Adjust margin for smaller screens */
     border-radius: 50%; /* Ensure the circle shape */
   }
   
   .square {
     width: calc(50% - 20px); /* Adjust width for smaller screens */
-    height: calc(50% - 20px); /* Allow height to adjust according to content */
+    height: auto; /* Allow height to adjust according to content */
     margin-bottom: 10px; /* Adjust margin for smaller screens */
     border-radius: 0; /* Ensure the square shape */
   }

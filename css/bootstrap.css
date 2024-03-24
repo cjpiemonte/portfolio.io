@@ -83,21 +83,38 @@ video {
   font-size: 18px;
 }
 
+
 @media screen and (max-width: 600px) {
   .circle {
-    width: 20px; /* Adjust width for smaller screens */
-    height:20px; /* Allow height to adjust according to content */
+    width: calc(50% - 20px); /* Adjust width for smaller screens */
+    height: calc(50% - 20px); /* Allow height to adjust according to content */
     margin-bottom: 10px; /* Adjust margin for smaller screens */
+    border-radius: 50%; /* Ensure the circle shape */
+  }
+  
+  .square {
+    width: calc(50% - 20px); /* Adjust width for smaller screens */
+    height: calc(50% - 20px); /* Allow height to adjust according to content */
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+    border-radius: 0; /* Ensure the square shape */
+  }
+}
+@media screen and (max-width: 768px) {
+  .circle {
+    width: calc(50% - 20px); /* Adjust width for smaller screens */
+    height: calc(50% - 20px); /* Allow height to adjust according to content */
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+    border-radius: 50%; /* Ensure the circle shape */
+  }
+  
+  .square {
+    width: calc(50% - 20px); /* Adjust width for smaller screens */
+    height: calc(50% - 20px); /* Allow height to adjust according to content */
+    margin-bottom: 10px; /* Adjust margin for smaller screens */
+    border-radius: 0; /* Ensure the square shape */
   }
 }
 
-@media screen and (max-width: 600px) {
-  .square {
-    width: 20px; /* Adjust width for smaller screens */
-    height: 20px; /* Allow height to adjust according to content */
-    margin-bottom: 10px; /* Adjust margin for smaller screens */
-  }
-}
 audio:not([controls]) {
   display: none;
   height: 0;
